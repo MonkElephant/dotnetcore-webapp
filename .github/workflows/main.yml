@@ -43,9 +43,9 @@ jobs:
       #- name: Snyk
       #  uses: snyk/actions/dotnet@master
       #  env:
-           SNYK_TOKEN:  ${{ secrets.SNYK_TOKEN }}
+      #     SNYK_TOKEN:  ${{ secrets.SNYK_TOKEN }}
   
-     - uses: actions/checkout@master
+     #- uses: actions/checkout@master
      - name: trufflehog-actions-scan
        uses: edplato/trufflehog-actions-scan@master
        with:
